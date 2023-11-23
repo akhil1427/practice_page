@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>jspiders</title>
+	<style>
+		body
+		{
+			margin: 0px;
+		}
+		#Nav
+		{
+			background-color: black;
+			text-align: center;
+			padding: 5px;
+
+		}
+		a 
+		{
+			color: white;
+			background-color: orange;
+			text-decoration:none;
+			margin: 7spx;
+			display: inline-block;
+			width: 80px;
+			border-radius: 10px;
+		}
+		a:hover
+		{
+			box-shadow: 0px 0px 20px white;
+		}
+	</style>
+</head>
+<body>
+	<div id="Nav">
+		<a href="">Home</a>
+		<a href="">Updates</a>
+		<a href="">Gallery</a>
+		<a href="">Courses</a>
+		<a href="">Contact Us</a>
+	</div>
+    <center>
+        <img src="{% static 'images/js.jpeg'  %}" height="">
+    </center>
+	
+
+</body>
+</html>
